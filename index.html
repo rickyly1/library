@@ -6,10 +6,11 @@
     <title>Library</title>
 
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <button class="add-book">Add Book</button>
-    <div class="popup">
+    <button id="showPopup">Add Book</button>
+    <div id="popup">
         <span class="close" id="closePopup">&times;</span>
         <h2>Add a New Book</h2>
         
@@ -26,7 +27,7 @@
             <label for="read">Read:</label>
             <input type="checkbox" id="read" name="read"><br>
 
-            <button type="submit">Add Book</button>
+            <button id="add-book" type="submit">Add Book</button>
         </form>
     </div>
 
