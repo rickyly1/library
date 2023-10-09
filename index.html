@@ -8,26 +8,27 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <button id="showPopup">Add Book</button>
     <div id="popup">
         <span class="close" id="closePopup">&times;</span>
         <h2>Add a New Book</h2>
         
-        <form action="" id="bookForm">
+        <form id="bookForm">
             <label for="title">Title:</label>
-            <input type="text" id="title" name="title" required><br>
+            <input type="text" id="title" name="title"><br>
 
             <label for="author">Author:</label>
-            <input type="text" id="author" name="author" required><br>
+            <input type="text" id="author" name="author"><br>
 
             <label for="pages">Pages:</label>
-            <input type="number" id="pages" name="pages" required><br>
+            <input type="number" id="pages" name="pages"><br>
 
             <label for="read">Read:</label>
             <input type="checkbox" id="read" name="read"><br>
 
-            <button id="add-book" type="submit">Add Book</button>
+            <button id="add-book">Add Book</button>
         </form>
     </div>
 
